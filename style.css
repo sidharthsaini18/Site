@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Font-size: 15px;
+    font-family: Overpass;
+}
+#container{
+    height: 50%;
+    width: 25%;
+    border-radius: 1rem;
+    background-color: hsl(213, 19%, 18%);
+   
+}
+.pic{
+    border: 1px solid white ;
+    border-radius: 60%;
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem;
+    background-color: hsl(213, 19%, 18%);
+    
+}
+svg{
+   padding: 7px;
+   display: block;
+}
+#imag{
+    margin: 0 4rem;
+    display: none;
+}
+h2{
+    color: white;
+    margin:  0 1rem;
+    width: 100%;
+}
+
+.box{
+    width: 60%;
+   height: 30px;
+   border-radius: 14px;
+   margin: auto;
+   background-color: hsl(217, 10%, 34%);
+   display: none;
+}
+.box h4{
+
+    color:hsl(25, 97%, 53%); 
+    height: 2rem;
+    width: 100%;
+    text-align: center;
+    
+}
+p{
+    color: rgb(168, 168, 168);
+    font-size: 12px;
+    margin: 1rem;
+    
+}
+.btns{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#buton{
+    display: block;
+}
+#btn{
+    padding:6px;
+    margin: 1rem;
+    width: 90%;
+    border: 5px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 13px;
+    display: block;
+}
+#btn:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+}
+
+button{
+    width: 15%;
+    border-radius: 50%;
+    padding: 12px;
+    border: none;
+    color: white;
+    background-color: hsl(215, 20%, 25%);
+    
+}
+button:hover{
+    background-color:hsl(25, 97%, 53%) ;
+    cursor: pointer;
+}
+
+
+@media screen and  (min-width:320px) {
+    
+    #container{
+        width: 80%;
+        height: 70%;
+    }
+    .box{
+        width: 80%;
+    }
+    .im{
+        width: 100%;
+    }
+    #imag{
+       margin: auto;
+    }
+    #star{
+        width: inherit;
+    }
+    
+}
+
+@media screen and  (min-width:425px) {
+    
+    #container{
+        width: 70%;
+        height: 70%;
+    }
+    .box{
+        width: 80%;
+    }
+    .im{
+        width: 100%;
+    }
+    #imag{
+       margin: auto;
+    }
+    #star{
+        width: inherit;
+    }
+    
+}
+@media screen and  (min-width:550px) {
+    
+    #container{
+        width: 50%;
+        height: 70%;
+    }
+    .box{
+        width: 80%;
+    }
+    .im{
+        width: 100%;
+    }
+    #imag{
+       margin: auto;
+    }
+    #star{
+        width: inherit;
+    }
+    
+}
+
+@media screen and  (min-width:768px) {
+    
+    #container{
+        width: 40%;
+        height: 70%;
+    }
+    .box{
+        width: 80%;
+    }
+    .im{
+        width: 100%;
+    }
+    #imag{
+       margin: auto;
+    }
+    #star{
+        width: inherit;
+    }
+    
+}
+
+@media screen and  (min-width:1080px) {
+    
+    #container{
+        width: 25%;
+        height: 70%;
+    }
+    .box{
+        width: 80%;
+    }
+    .im{
+        width: 100%;
+    }
+    #imag{
+       margin: auto;
+    }
+    #star{
+        width: inherit;
+    }
+    
+}
